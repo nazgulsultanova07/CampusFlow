@@ -42,7 +42,7 @@ git clone https://github.com/nazgulsultanova07/CampusFlow.git
 cd CampusFlow
 
 ##2. установка зависимостей (пример)
-npm install        # или: pip install -r requirements.txt
+pip install flask         # или: pip install -r requirements.txt
 
 ##3. Запустить приложение
 bash
