@@ -3,7 +3,7 @@
 Веб-приложение для бронирования аудиторий кампуса: поиск свободных пространств по дате, времени, вместимости и оборудованию, оформление бронирований и управление аудиториями.
 
 **Демо:** https://campusflow-peiv.onrender.com/
-⚠️ Доступ к демо возможен только через VPN: домен `onrender.com`
+⚠️ Доступ к демо возможен только через VPN: домен `onrender.com`, можно запустить локально 
 
 ## О проекте
 
@@ -33,5 +33,19 @@ CampusFlow помогает студентам, преподавателям и 
 git clone https://github.com/nazgulsultanova07/CampusFlow.git
 cd CampusFlow
 
-# установка зависимостей (пример)
+## Локальный запуск
+
+Инструкция для запуска проекта на своём компьютере (без VPN и без деплоя).
+
+### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/nazgulsultanova07/CampusFlow.git
+cd CampusFlow
+##2. установка зависимостей (пример)
 npm install        # или: pip install -r requirements.txt
+##3. Запустить приложение
+bash
+python app.py
+
+## открыть * Running on http://127.0.0.1:5000
