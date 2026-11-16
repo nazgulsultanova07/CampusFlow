@@ -30,8 +30,6 @@ CampusFlow помогает студентам, преподавателям и 
 ## Установка
 
 ```bash
-git clone https://github.com/nazgulsultanova07/CampusFlow.git
-cd CampusFlow
 
 ## Локальный запуск
 
@@ -42,8 +40,10 @@ cd CampusFlow
 ```bash
 git clone https://github.com/nazgulsultanova07/CampusFlow.git
 cd CampusFlow
+
 ##2. установка зависимостей (пример)
 npm install        # или: pip install -r requirements.txt
+
 ##3. Запустить приложение
 bash
 python app.py
